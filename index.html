@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Invoice Creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+    </header>
+    <div class="services">
+        <button id="washCar" class="washCar">Wash Car: $10</button>
+        <button id="mowLawn" class="mowLawn">Mow Lawn: $20</button>
+        <button id="pullWeeds" class="pullWeeds">Pull Weeds: $30</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="details">
+            <!--Change to dynamic-->
+            <!-- <tr>
+                <td class="task">Wash Car <button class="remove">Remove</button></td>
+                <td class="price">$10</td>
+            </tr> -->
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Notes</th>
+                <th>Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td id="paymentType" class="paymentType">We accept cash, credit card, or Paypal</td>
+            <td id="totalAmount" class="totalAmount"></td>
+        </tbody>
+    </table>
+    <button class="sendInvoice"><img src="images/mail.png" alt="Mail"> Send Invoice</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

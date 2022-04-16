@@ -1,0 +1,127 @@
+ html, body {
+    margin: auto;
+    padding: 0;
+    height: 719px;
+    width: 550px;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    background-color: white;
+}
+body {
+    background-color: #1F2937;
+    color: white;
+}
+header {
+    height: 190px;
+    text-align: center;
+    background-color: #3A69D2;
+}
+
+header h1 {
+    font-weight: 800;
+    padding-top: 59px;
+    margin: 0 0 9px 0;
+}
+
+.paymentType{
+    font-weight: 400;
+    font-size: 12px;
+    color: #F5F5F5;
+    padding-top: 11px;
+}
+
+.price {
+    text-align: end;
+    font-weight: 300;
+    font-size: 24px;
+    color: #918E9B;
+    padding: 12px 0;
+}
+
+.remove {
+    border: none;
+    background-color: #1F2937;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 8px;
+    vertical-align: middle;
+    margin-left: 9px;
+}
+
+.sendInvoice {
+    margin: 50px 38px auto 39px;
+    width: 473px;
+    background-color: #3A69D2;
+    border-radius: 7px;
+    height: 44px;
+    color:  #FFFFFF;
+}
+
+.sendInvoice img {
+    padding-right: 14px;
+}
+.services {
+    display: flex;
+    margin: 41px;
+    justify-content: space-between;
+}
+
+.services button {
+    background: #D1D4F4;
+    width: 144px;
+    height: 45px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4A4E74;
+    border-radius: 7px;
+}
+
+.task {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+table {
+    width: 471px; 
+    margin: auto;
+}
+
+table:first-of-type{
+    border-bottom: 1px solid white;
+    padding-bottom: 17px;
+}
+
+table:nth-of-type(2){
+    padding-top: 11px;
+}
+
+table:nth-of-type(2) thead{
+    font-weight: 600;
+    color: #D5D4D8;
+}
+
+thead {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+thead:first-of-type tr th:first-child {
+    text-align: start;
+}
+
+thead:first-of-type tr th:last-child {
+    text-align: end;
+    padding-bottom: 4px;
+}
+
+.totalAmount{
+    font-weight: 600;
+    font-size: 36px;
+    color: #F5F5F5;
+    text-align: right;
+}
+
